@@ -1,0 +1,55 @@
+/* ===========common css start===== */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========common css end===== */
+
+.sidemenu {
+    left: -160px; 
+    /* width: 300px;
+    background: #000;
+    position: fixed; */
+    top: 40px;
+    transition: .4s;
+    display: none;
+}
+
+.sidemenu .bar {
+    width: 60px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    right: -60px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidemenu .bar .bar1 {
+    width: 40px;
+    height: 5px;
+    background-color: rgb(228, 234, 234);
+    position: absolute;
+    top: 10px;
+}
+
+.sidemenu .bar .bar2 {
+    width: 40px;
+    height: 5px;
+    top: 20px;
+    background-color: rgb(228, 234, 234);
+    position: absolute;
+}
+
+.sidemenu .bar .bar3 {
+    top: 30px;
+    width: 40px;
+    height: 5px;
+    background-color: rgb(228, 234, 234);
+    position: absolute;
+}
+
+.test {
+    display: block;
+}
